@@ -8,14 +8,34 @@
 #include <iostream>
 using namespace std;
 
+namespace MJ {
+
+    int a_age;
+    class Person {
+    public:
+        int m_age;
+    };
+}
+namespace JJ {
+int a_age;
+    class Person {
+    public:
+        int m_age;
+    };
+}
 class Person {
-    int age;
-    int height;
+private:
     string name;
+    int m_age;
+    int m_height;
+public:
+    Person(int age,int height) :m_age(age),m_height(height) {
+        
+    }
 };
 //全局区
 Person g_person;
-int main(int argc, const char * argv[]) {
+int main(int ;, const char * argv[]) {
 //    int age = 10;
 ////    p在栈空间指向堆空间当中的age
 //    int size = sizeof(int) * 10;
@@ -31,11 +51,10 @@ int main(int argc, const char * argv[]) {
 //
 //    char *z = new char[4];
 //    delete [] z;
-  
-//    栈空间
-    Person person;
-//    堆空间
-    Person *p = new Person;
+//    printf("");
+//    Person *p1 = new Person;
+//    p1->name = "demo";
+
 
     return 0;
 }

@@ -14,19 +14,14 @@
             symbolName = "*0x100003107">
             <Locations>
                <Location
-                  uuid = "D07BDB49-20FA-43FF-861C-57FF934C5A71 - 808f4af87d2236fa"
+                  uuid = "D07BDB49-20FA-43FF-861C-57FF934C5A71 - 931ec6d91fd655bc"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "main"
+                  symbolName = "_mh_execute_header"
                   moduleName = "demo121702"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mac/C-Test/Demo/demo121702/demo121702/main.cpp"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "16"
-                  endingLineNumber = "16"
-                  offsetFromSymbolStart = "87">
+                  offsetFromSymbolStart = "12551">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -34,17 +29,17 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "EBDD18C5-2D42-4B92-929C-0DDCB01D5553"
+            uuid = "4BDAE844-4D38-410E-B59C-CDA8239D0F82"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "demo121702/main.cpp"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
-            landmarkName = "main(argc, argv)"
-            landmarkType = "9">
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "main(, argv)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>
