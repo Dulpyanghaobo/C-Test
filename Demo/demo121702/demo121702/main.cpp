@@ -26,16 +26,14 @@ int a_age;
 class Person {
 private:
     string name;
-    int m_age;
-    int m_height;
 public:
-    Person(int age,int height) :m_age(age),m_height(height) {
-        
-    }
+    int age;
+//    int height;
+//    string name;
 };
 //全局区
 Person g_person;
-int main(int ;, const char * argv[]) {
+int main(int argc, const char * argv[]) {
 //    int age = 10;
 ////    p在栈空间指向堆空间当中的age
 //    int size = sizeof(int) * 10;
@@ -54,7 +52,6 @@ int main(int ;, const char * argv[]) {
 //    printf("");
 //    Person *p1 = new Person;
 //    p1->name = "demo";
-
-
+    
     return 0;
 }
